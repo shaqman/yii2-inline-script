@@ -1,0 +1,31 @@
+{
+    "name": "shaqman/yii2-inline-script",
+    "description": "Use inline javascripts inside view normally.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "inline-script",
+        "javascript"
+    ],
+    "homepage": "https://github.com/shaqman/yii2-inline-script",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Syakur Rahman",
+            "email": "shaqman2004@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/shaqman/yii2-inline-script/issues",
+        "source": "https://github.com/shaqman/yii2-inline-script"
+    },
+    "require": {
+        "yiisoft/yii2": "~2"
+    },
+    "autoload": {
+        "psr-4": {
+            "shaqman\\widgets\\inlinescript\\": "./src"
+        }
+    }
+}
