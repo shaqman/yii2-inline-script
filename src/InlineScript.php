@@ -7,7 +7,7 @@
 namespace shaqman\widgets\inlinescript;
 
 use yii\base\Widget;
-use yii\base\View;
+use yii\web\View;
 use yii\base\Exception;
 
 class InlineScript extends Widget {
