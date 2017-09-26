@@ -19,4 +19,28 @@ or add
 
 ## Usage
 
-Under development.
+In your view:
+
+```
+use shaqman\widgets\inlinescript\InlineScript
+
+... view ...
+
+<?php InlineScript::begin([
+        'position' => View::POS_HEAD, // yii\web\view\registerJs parameter
+        'key' => 'tmp-script' // yii\web\view\registerJs parameter
+    ]);
+?>
+
+<script>
+
+    $("#btn-submit").click(function () {
+        alert('hi');
+    });
+
+</script>
+
+<?php InlineScript::end(); ?>
+
+... view ...
+```
