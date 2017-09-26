@@ -27,8 +27,8 @@ use shaqman\widgets\inlinescript\InlineScript
 ... view ...
 
 <?php InlineScript::begin([
-        'position' => View::POS_HEAD, // yii\web\view\registerJs parameter
-        'key' => 'tmp-script' // yii\web\view\registerJs parameter
+        'position' => View::POS_HEAD, // yii\web\view\registerJs parameter (optional)
+        'key' => 'tmp-script' // yii\web\view\registerJs parameter (optional)
     ]);
 ?>
 
